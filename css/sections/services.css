@@ -1,0 +1,25 @@
+.services .container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+}
+.services .service .icon {
+    border: 1px solid #c5c5c5;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    font-size: 35px;
+    margin: 5px auto;
+}
+.services .service span {
+    margin: 20px auto;
+    text-transform: uppercase;
+    color: rgb(86, 86, 86);
+    font-size: 20px;
+}
+.services .service p {
+    color: #444;
+    line-height: 2;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}

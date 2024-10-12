@@ -1,0 +1,61 @@
+.landing {
+    background-image: url('../../images/header_stock.png');
+}
+.landing:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.489);
+}
+.landing .container > span {
+    bottom: 15px;
+    font-size: 27px;
+}
+.landing .container > span:hover {
+    color: rgb(204, 204, 204);
+}
+.landing .container > header .logo span:last-of-type {
+    margin-left: 3px;
+}
+.landing .container > header .nav-bar {
+    font-size: 20px;
+}
+.landing .container > div header {
+    font-size: 50px;
+}
+.landing .container > div p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 20px auto;
+}
+.landing .container > div .buttons {
+    width: fit-content;
+    margin: 60px auto 10px;
+}
+.landing .container > div .buttons button {
+    padding: 8px 10px;
+    background: transparent;
+    border-radius: 4px;
+    outline: 0;
+    border: 0.1px solid white;
+    width: 150px;
+    height: 37px;
+    align-content: center;
+    margin: 0 30px;
+}
+.landing .container > div .buttons button:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+/* Start Responsive */
+@media (max-width: 767px) {
+    .landing .container > div header {
+        font-size: 35px;
+    }
+    .landing .container > div p {
+        width: 80%;
+    }
+}

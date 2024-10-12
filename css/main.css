@@ -1,0 +1,45 @@
+:root {
+    --main-color: rgb(247, 96, 14)
+}
+
+/* Start Resets */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00b09c;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* End Resets */
+/* Start Customuzed Styling */
+body > div:not(:first-child) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* Start Customuzed Styling */
+.main-color {
+    color: var(--main-color);
+}

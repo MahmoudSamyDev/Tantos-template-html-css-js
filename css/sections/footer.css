@@ -1,0 +1,16 @@
+footer {
+    min-height: 70px;
+    max-height: fit-content;
+    background-color: rgb(0, 72, 106);
+    align-content: center;
+    padding: 20px 0;
+}
+@media (max-width: 767px) {
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container span:last-child {
+        display: block;
+        margin-top: 20px;
+    }
+}
