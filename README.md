@@ -7,7 +7,7 @@ This project is a **modern and responsive landing page** designed to enhance the
 - **Clean and well-structured code** for easy customization  
 - **Fully responsive layout** to adapt seamlessly to all screen sizes  
 - **High performance and fast loading speeds** using optimized CSS  
-- **Setting customization simple panel ** to change page visualization settings  
+- **Setting customization simple panel** to change page visualization settings  
 - **Well-organized sections** to present information effectively  
 
 ## 🔹 Page Sections  
